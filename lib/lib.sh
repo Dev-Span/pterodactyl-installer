@@ -142,7 +142,7 @@ welcome() {
 # ---------------- Lib functions --------------- #
 
 get_latest_release() {
-  curl -sL "https://api.github.com/repos/$1/releases/v1.11.1" | # Get latest release from GitHub api
+  curl -sL "https://api.github.com/repos/$1/releases/85049005" | # Get latest release from GitHub api
     grep '"tag_name":' |                                       # Get tag line
     sed -E 's/.*"([^"]+)".*/\1/'                               # Pluck JSON value
 }
