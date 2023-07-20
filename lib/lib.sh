@@ -35,7 +35,7 @@ export GITHUB_SOURCE=${GITHUB_SOURCE:-master}
 export SCRIPT_RELEASE=${SCRIPT_RELEASE:-canary}
 
 # Pterodactyl versions
-export PTERODACTYL_PANEL_VERSION=""
+export PTERODACTYL_PANEL_VERSION="1.11.1"
 export PTERODACTYL_WINGS_VERSION=""
 
 # Path (export everything that is possible, doesn't matter that it exists already)
